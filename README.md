@@ -1,4 +1,4 @@
-# cs2-portfolio
+# Computer Science 2- Portfolio
 *Zoe Naomi G. Arcilla—8 Dahlia*
 
 **Links of Activities**
