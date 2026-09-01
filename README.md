@@ -1,7 +1,8 @@
 # Computer Science 2- Portfolio
-*Zoe Naomi G. Arcilla—8 Dahlia*
+**Name:** *Zoe Naomi G. Arcilla*
+**Grade and Section:** *8 Dahlia⋆˚꩜｡*
 
-**Links of Activities**
+**Links of Activities below⊹ ࣪ ˖ ໒꒱**
 
 >[hello.py](q1/hello.py)
 
