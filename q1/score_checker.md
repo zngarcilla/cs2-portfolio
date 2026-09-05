@@ -75,7 +75,7 @@ Here is the code I created: [score_checker.py](score_checker.py)
 ### Part 5: Testing program
 
 | Test | Input | Purpose | Expected Output | Actual Output | Result
-| -------- | -------- | -------- |
+| -------- | -------- | -------- | -------- | -------- | -------- |
 | 1  | -1  | Below minimum  | Invalid
 | 2  | 0  | Minimum boundary  | Needs Improvement
 |3| 74| Below Satisfactory boundary| Needs Improvement
