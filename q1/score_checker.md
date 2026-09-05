@@ -38,4 +38,4 @@ Which part uses multiple decision paths?
 ### **Part 2: Flowchart**
 I created a flowchart that shows the logic of my program.
 Here is the flowchart I made:
-[score_checker_flowchart.png](q1/score_checker_flowchart.png)
+[score_checker_flowchart.png](score_checker_flowchart.png)
