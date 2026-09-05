@@ -76,12 +76,12 @@ Here is the code I created: [score_checker.py](score_checker.py)
 
 | Test | Input | Purpose | Expected Output | Actual Output | Result
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| 1  | -1  | Below minimum  | Invalid| Invalid
-| 2  | 0  | Minimum boundary  | Needs Improvement| Needs Improvement
-|3| 74| Below Satisfactory boundary| Needs Improvement| Needs Improvement|
-|4| 75| Satisfactory boundary| Satisfactory| Satisfactory|
-|5| 80| Very Satisfactory boundary| Very Satisfactory| Very Satisfactory
-|6| 90| Outstanding boundary| Outstanding| Outstanding
-|7| 100| Maximum boundary| Outstanding| Outstanding
-|8| 101| Above Maximum| Invalid| Invalid
+| 1  | -1  | Below minimum  | Invalid| Invalid| Pass
+| 2  | 0  | Minimum boundary  | Needs Improvement| Needs Improvement|Pass| 
+|3| 74| Below Satisfactory boundary| Needs Improvement| Needs Improvement| Pass|
+|4| 75| Satisfactory boundary| Satisfactory| Satisfactory|Pass|
+|5| 80| Very Satisfactory boundary| Very Satisfactory| Very Satisfactory|Pass|
+|6| 90| Outstanding boundary| Outstanding| Outstanding|Pass|
+|7| 100| Maximum boundary| Outstanding| Outstanding|Pass|
+|8| 101| Above Maximum| Invalid| Invalid|Pass|
 
