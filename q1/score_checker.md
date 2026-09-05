@@ -42,7 +42,9 @@ Here is the flowchart I made:
 
 ### Part 3: Pseudocode
 START
+
 DISPLAY “Enter student score:”
+
 INPUT score
 
 IF score <0 OR score > 100 THEN
@@ -69,3 +71,17 @@ END
 
 ### Part 4: Clean Code Implementation
 Here is the code I created: [score_checker.py](score_checker.py)
+
+### Part 5: Testing program
+
+| Test | Input | Purpose |
+| -------- | -------- | -------- |
+| 1  | Row 1-2  | Row 1-3  |
+| 2  | Row 2-2  | Row 2-3  |
+|3
+|4
+|5
+|6
+|7
+|8
+
