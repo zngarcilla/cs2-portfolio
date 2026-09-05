@@ -58,4 +58,4 @@ DISPLAY “Needs Improvement”
 END
 
 ### Part 4: Clean Code Implementation
-Here is the code I created: [score_checker.py](q1/score_checker.py)
+Here is the code I created: [score_checker.py](score_checker.py)
