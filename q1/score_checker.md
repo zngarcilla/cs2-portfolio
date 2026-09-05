@@ -8,7 +8,7 @@
  The program is a Student Score Checker classifies grades as follows: a score of 90-100 is ‘Outstanding’, 80-89 is ‘Very Satisfactory’, 75-79 is ‘Satisfactory’. Any score below 75 (but greater or equal to 0) is classified as ‘Needs Improvement’.
  The acceptable input must be between 0-100, otherwise, the score is be classified as ‘Invalid’.
 
- ### **Part 1:**
+ ### **Part 1: Analyzing Logic**
  **Input:** What information does the program need?
 >The numerical score number entered by the user.
 
@@ -34,3 +34,6 @@ Which part uses a boundary condition?
 
 Which part uses multiple decision paths?
 >The step that picks the classification based on the score.
+
+### **Part 2: Flowchart**
+I created a flowchart that shows the logic of my program.
