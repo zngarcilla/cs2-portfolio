@@ -23,7 +23,7 @@ What is the maximum valid score?
 **Possible Outputs:** What outcomes can the program produce?
 >“Outstanding” for scores 90-100.
 >“Very Satisfactory” for scores 80-89.
->“Satisfactory” for scores 75-19.
+>“Satisfactory” for scores 75-79.
 >“Needs Improvement” for scores lower than 75 that is greater or equal to 0.
 >“Invalid” for scores greater than 100 and lower than 0.
 
