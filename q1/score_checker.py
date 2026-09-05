@@ -2,12 +2,12 @@
 score = int(input("Enter student score:"))
 
 #Stating that if the score is less than 0 or greater than 100 it is an ivalid score.
-if 0<score<100:
+if score <0 or score > 100:
   print("Invalid")
 
 #Classifications of scores
 elif score >=90:
-  print("Outsranding")
+  print("Outstanding")
 
 elif score >=80:
   print("Very Satisfactory")
