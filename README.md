@@ -9,3 +9,5 @@
 >[hello.py](q1/hello.py)
 
 >[Arcilla_ZoeNaomi_Distance.py](q1/Arcilla_ZoeNaomi_Distance.py)
+
+>[score_checker.md](q1/score_checker.md)
