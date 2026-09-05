@@ -74,14 +74,14 @@ Here is the code I created: [score_checker.py](score_checker.py)
 
 ### Part 5: Testing program
 
-| Test | Input | Purpose |
+| Test | Input | Purpose | Expected Output | Actual Output | Result
 | -------- | -------- | -------- |
-| 1  | Row 1-2  | Row 1-3  |
-| 2  | Row 2-2  | Row 2-3  |
-|3
-|4
-|5
-|6
-|7
-|8
+| 1  | -1  | Below minimum  | Invalid
+| 2  | 0  | Minimum boundary  | Needs Improvement
+|3| 74| Below Satisfactory boundary| Needs Improvement
+|4| 75| Satisfactory boundary| Satisfactory
+|5| 80| Very Satisfactory boundary| Very Satisfactory 
+|6| 90| Outstanding boundary| Outstanding
+|7| 100| Maximum boundary| Outstanding
+|8| 101| Above Maximum| Invalid
 
