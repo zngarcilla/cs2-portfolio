@@ -94,3 +94,11 @@ Here is the code I created: [score_checker.py](score_checker.py)
 >Tests 1,2,7, and 8. They showed me exactly how the program handles the very edges of the allowed scores.
 4. Did any of your test fail initially? If yes, what did you change in your program?
 >Yes, -1 originally showed “Needs Improvement”, instead of “Invalid”. I fixed it by adding an or statement to properly block numbers outside the 0-100 range.
+
+**Reflection:** 
+1. How did selection structures make the program more useful?
+>Selection structures let my programs make decisions. Instead of doing the exact same thing every time, the program can check the score you type in. It can then decide if the score is invalid or in any of the classifications based of my rules.   
+2. How did proper comments and readable formatting improve your program?
+>Good formatting and comments make my code clean and easy to fix. When my code is organized, I can find mistakes much faster.
+3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
+>Planning first helps me figure out the steps before I start coding. It lets me map out the logic in English. This makes it easier to spot mistakes before I spend time typing real code.
