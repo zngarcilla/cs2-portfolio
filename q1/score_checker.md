@@ -85,3 +85,12 @@ Here is the code I created: [score_checker.py](score_checker.py)
 |7| 100| Maximum boundary| Outstanding| Outstanding|Pass|
 |8| 101| Above Maximum| Invalid| Invalid|Pass|
 
+**Testing Reflection:**
+1. Why is it important to test values 0-100?
+>It is important because 0 is the minimum boundary and 100 is the maximum boundary.
+2. Why did you also test -1 and 101?
+>0 is the minimum while 100 is the maximum boundary, if I input a number lower than 0 or a number greater than 100 the output should be “Invalid”.   
+3. Which test help you understand the boundary conditions?
+>
+4. Did any of your test fail initially? If yes, what did you change in your program?
+>Yes, originally my code would count -1 as “Needs Improvement”, I then realized that I forgot to add the ‘or’ function in my code about the restrictions in scores.
