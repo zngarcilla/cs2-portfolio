@@ -39,3 +39,23 @@ Which part uses multiple decision paths?
 I created a flowchart that shows the logic of my program.
 Here is the flowchart I made:
 ![score_checker_flowchart.jpeg](score_checker_flowchart.jpeg)
+
+### Part 3: Pseudocode
+START
+DISPLAY “Enter student score:”
+INPUT score
+
+IF score <0 OR score > 100 THEN
+DISPLAY “Invalid”
+ELSE IF score >= 90 THEN
+DISPLAY “Outstanding”
+ELSE IF score >= 80 THEN
+DISPLAY “Very Satisfactory”
+ELSE IF score >= 75 THEN
+DISPLAY “Satisfactory”
+ELSE
+DISPLAY “Needs Improvement”
+END
+
+### Part 4: Clean Code Implementation
+Here is the code I created: [score_checker.py](q1/score_checker.py)
