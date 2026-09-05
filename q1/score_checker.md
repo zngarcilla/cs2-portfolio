@@ -11,19 +11,26 @@
  ### **Part 1:**
  **Input:** What information does the program need?
 >The numerical score number entered by the user.
- **Boundaries:**
+
+**Boundaries:**
+ 
  What is the minimum valid score?
 >The minimum valid score is 0.
- What is the maximum valid score?
+
+What is the maximum valid score?
 >The maximum valid score is 100.
- **Possible Outputs:** What outcomes can the program produce?
+
+**Possible Outputs:** What outcomes can the program produce?
 >“Outstanding” for scores 90-100.
 >“Very Satisfactory” for scores 80-89.
 >“Satisfactory” for scores 75-19.
 >“Needs Improvement” for scores lower than 75 that is greater or equal to 0.
 >“Invalid” for scores greater than 100 and lower than 0.
- **Selection Patterns:**
- Which part uses a boundary condition?
+
+**Selection Patterns:**
+
+Which part uses a boundary condition?
 >The part that makes sure the score is between 0-100.
- Which part uses multiple decision paths?
+
+Which part uses multiple decision paths?
 >The step that picks the classification based on the score.
