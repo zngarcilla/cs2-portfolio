@@ -19,10 +19,10 @@ The program validates:
 # Part A - Validation Requirements
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
-|---|---|---|---|---|---|----|
+|---|---|---|---|---|---|
 | Student Name | Any non-empty text | Presence| “”| must not be empty| Student name is required.|
 | Age | 11, 12, 13, 14, 15, 16, 17, 18 | Data type + Range |”twenty”, 19 |Integers between 11 and 18 | Age must be a number and a number between 11 to 18.
-| Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable value | 78, N | between range 7 to 12 and must be an integer | Invalid grade level |
+| Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable value | 78, N | Between range 7 to 12 and must be an integer | Invalid grade level |
 | Email Address | Any text with @ symbol | Singular pattern | studentyes, whatddddd| Must contain the symbol @| Email must contain @ |
 | Registration Code | Exactly 6 characters | length | 239054384848, what | Must have exactly 6 characters of code | Registration code must have 6 digits |
 
@@ -40,7 +40,7 @@ The program validates:
 > Exactly 6 characters.
 ---
 # Part B - Program Design
-Before writing your program, create either a **flowchart or pseudocode** showing its logic.
+
 ## Pseudocode
 
 START
@@ -255,7 +255,7 @@ Write **PASS** when the actual output matches the expected output.
 Write **FAIL** when it does not.
 ---
 # Part E - Output Verification
-Choose any **three tests** from Part D.
+
 ## Verification Test 1
 **Input:**
 Enter student name: Maria Santos
@@ -329,7 +329,7 @@ REGISTRATION NOT ACCEPTED
 > The program rejected non‑numeric age input, printed the required message, and rejected the registration.
 ---
 # Reflection
-Answer briefly.
+
 ### 1. Why should a program validate input before processing it?
 > To prevent crashes, wrong calculations, or invalid data being stored. It also guides the user to enter correctly formatted information and keeps the system reliable and secure.
 ### 2. What is the difference between input validation and output verification?
