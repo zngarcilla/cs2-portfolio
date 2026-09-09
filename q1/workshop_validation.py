@@ -1,50 +1,48 @@
-name = str(input("Enter student name:"))
+name = input("Enter student name:")
 if name == "":
-  print("Invalid")
-  name_valid = False
+    print("Student name is required.")
+    name_valid = False
 else:
-  print("Valid")
-  name_valid = True
+    name_valid = True
 
-age = input("Enter age, it must be a number from 11 to 18:")
-if age.isdigit():
-  print("Valid")
-  age_v = True
-  agee = int(age)
+age_input = input("Enter age:")
+age_valid = False
+age_value = 0
+
+if age_input.isdigit():
+    age_value = int(age_input)
+    if 11 <= age_value <= 18:
+        age_valid = True
+    else:
+        print("Age must be from 11 to 18.")
 else:
-  print("Invalid")
-  age_v = True
+    print("Age must be a number.")
 
-if agee > 18 or agee < 11:
-  print("Invalid")
-  age_v = False
-  
-
-grade = int(input("Enter grade level, must be from 7 to 12:"))
-if grade > 12 or grade < 7:
-  print("Invalid grade level")
-  grade_v = False
+grade = input("Enter grade level:")
+grade_valid = False
+if grade in ("7", "8", "9", "10", "11", "12"):
+    grade_valid = True
 else:
-  print("Valid")
-  grade_v= True
+    print("Invalid grade level.")
 
-email = str(input("Enter email, must contain @"))
+email = input("Enter email:")
+email_valid = False
 if "@" in email:
-  print("Valid")
-  e_v = True
-else:
-  print("Invalid")
-  a_v = False
+    email_valid = True
 
-code = str(input("Enter code"))  
-if len(code) == 6:
-  print("Valid")
-  code_v = True
+reg_code = input("Enter registration code:")
+code_valid = False
+if len(reg_code) == 6:
+    code_valid = True
 else:
-  print("Invalid")
-  code_v = False
+    print("The registration code must contain exactly 6 characters.")
 
-if name_valid and age_v and grade_v and code == "Valid":
-  print("REGISTRATION ACCEPTED")
+if name_valid and age_valid and grade_valid and email_valid and code_valid:
+    print("REGISTRATION ACCEPTED")
+    print(f"Student: {name}")
+    print(f"Age: {age_value}")
+    print(f"Grade Level: {grade}")
+    print(f"Email: {email}")
+    print(f"Registration Code: {reg_code}")
 else:
-  print("REGISTRATION NOT ACCEPTED")
+    print("REGISTRATION NOT ACCEPTED")
