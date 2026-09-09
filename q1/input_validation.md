@@ -261,66 +261,85 @@ Write **FAIL** when it does not.
 Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
-```text
-Write the input here.
+Enter student name: Maria Santos
+Enter age: 14
+Enter grade level: 8
+Enter email: maria@brc.pshs.edu.ph
+Enter registration code: CS2026
 
-```
 **Expected Output:**
-```text
-Write the expected output here.
-```
+REGISTRATION ACCEPTED
+Student: Maria Santos
+Age: 14
+Grade Level: 8
+Email: maria@brc.pshs.edu.ph
+Registration Code: CS2026
+
 **Actual Output:**
-```text
-Write the actual output here.
-```
-**Result:** PASS / FAIL
+REGISTRATION ACCEPTED
+Student: Maria Santos
+Age: 14
+Grade Level: 8
+Email: maria@brc.pshs.edu.ph
+Registration Code: CS2026
+
+**Result:** PASS
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> All inputs satisfy the validation rule.
 ---
 ## Verification Test 2
 **Input:**
-```text
-Write the input here.
-```
+Enter student name: “” (pressed Enter)
+Enter age: 14
+Enter grade level: 8
+Enter email: maria@example.com
+Enter registration code: CS2026
+
 **Expected Output:**
-```text
-Write the expected output here.
-```
+Student name is required.
+
+REGISTRATION NOT ACCEPTED
+
 **Actual Output:**
-```text
-Write the actual output here.
-```
-**Result:** PASS / FAIL
+Student name is required.
+
+REGISTRATION NOT ACCEPTED
+
+**Result:** PASS
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> It shows a blank name for student name, and rejected the registration.
 ---
 ## Verification Test 3
 **Input:**
-```text
-Write the input here.
-```
+Enter student name: Juan
+Enter age: fourteen
+Enter grade level: 7
+Enter email: juan@pshs.edu.ph
+Enter registration code: A12B34
+
 **Expected Output:**
-```text
-Write the expected output here.
-```
+Age must be a number.
+
+REGISTRATION NOT ACCEPTED
 **Actual Output:**
 
-```text
-Write the actual output here.
-```
-**Result:** PASS / FAIL
+Age must be a number.
+
+REGISTRATION NOT ACCEPTED
+
+**Result:** PASS
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> The program rejected non‑numeric age input, printed the required message, and rejected the registration.
 ---
 # Reflection
 Answer briefly.
 ### 1. Why should a program validate input before processing it?
-> Write your answer here.
+> To prevent crashes, wrong calculations, or invalid data being stored. It also guides the user to enter correctly formatted information and keeps the system reliable and secure.
 ### 2. What is the difference between input validation and output verification?
-> Write your answer here.
+> Input validation happens in data entry, the program checks whether the data meets the rules. Output verification happens after running the program, you compare what the program actually printed against what you expected to see if the program behaved correctly.
 ### 3. Which validation technique was easiest for you to implement? Why?
-> Write your answer here.
+> len() since it is just one function. 
 ### 4. Which validation technique was most challenging? Why?
-> Write your answer here.
+> Age validation since it needed two separate checks in the right order: first confirm it’s a number, then check the range. Doing them in the wrong order could cause errors or crashes.
 ### 5. How did testing invalid inputs help you improve your program?
-> Write your answer here.
+> It showed logic mistakes I wouldn’t have seen with only valid data like the original bug where non‑numeric ages were incorrectly marked valid. It gave me confidence the program catches bad data as intended.
