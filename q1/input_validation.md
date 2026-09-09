@@ -51,69 +51,114 @@ START
 
  
   DISPLAY "Enter student name:"
+  
   READ name
+  
   IF name IS EMPTY THEN
+  
     DISPLAY "Student name is required."
+    
     name_valid = FALSE
+    
   ELSE
+  
     name_valid = TRUE
+    
   END IF
-
  
   DISPLAY "Enter age:"
+
   READ age_text
+
   IF age_text IS A NUMBER THEN
+
     age_number = CONVERT age_text TO INTEGER
+
     IF age_number >= 11 AND age_number <= 18 THEN
+
       age_valid = TRUE
-    ELSE
+ 
+   ELSE
+   
       DISPLAY "Age must be from 11 to 18."
+      
       age_valid = FALSE
+      
     END IF
+    
   ELSE
+  
     DISPLAY "Age must be a number."
+    
     age_valid = FALSE
+    
   END IF
 
  
-  DISPLAY "Enter grade level:"
+  DISPLAY 
+  “Enter grade level:"
+  
   READ grade
+  
   IF grade IS ONE OF: 7, 8, 9, 10, 11, 12 THEN
+  
     grade_valid = TRUE
+    
   ELSE
     DISPLAY "Invalid grade level."
+    
     grade_valid = FALSE
+    
   END IF
 
  
   DISPLAY "Enter email:"
+  
   READ email
   IF email CONTAINS "@" THEN
+  
     email_valid = TRUE
+    
   ELSE
     email_valid = FALSE
+    
   END IF
 
  
   DISPLAY "Enter registration code:"
+
   READ code
+  
   IF LENGTH(code) == 6 THEN
+  
     code_valid = TRUE
+    
   ELSE
     DISPLAY "The registration code must contain exactly 6 characters."
+    
     code_valid = FALSE
+    
   END IF
 
  
   IF name_valid AND age_valid AND grade_valid AND email_valid AND code_valid THEN
+  
     DISPLAY "REGISTRATION ACCEPTED"
+    
     DISPLAY "Student: " + name
+    
     DISPLAY "Age: " + age_number
+    
     DISPLAY "Grade Level: " + grade
+    
     DISPLAY "Email: " + email
+    
     DISPLAY "Registration Code: " + code
+    
   ELSE
+  
     DISPLAY "REGISTRATION NOT ACCEPTED"
+    
   END IF
 
 END
@@ -125,9 +170,54 @@ END
 ## Source Code File
 [`workshop_validator.py`](workshop_validator.py)
 ## Final Code
-```
-```
+name = input("Enter student name:")
+if name == "":
+    print("Student name is required.")
+    name_valid = False
+else:
+    name_valid = True
 
+age_input = input("Enter age:")
+age_valid = False
+age_value = 0
+
+if age_input.isdigit():
+    age_value = int(age_input)
+    if 11 <= age_value <= 18:
+        age_valid = True
+    else:
+        print("Age must be from 11 to 18.")
+else:
+    print("Age must be a number.")
+
+grade = input("Enter grade level:")
+grade_valid = False
+if grade in ("7", "8", "9", "10", "11", "12"):
+    grade_valid = True
+else:
+    print("Invalid grade level.")
+
+email = input("Enter email:")
+email_valid = False
+if "@" in email:
+    email_valid = True
+
+reg_code = input("Enter registration code:")
+code_valid = False
+if len(reg_code) == 6:
+    code_valid = True
+else:
+    print("The registration code must contain exactly 6 characters.")
+
+if name_valid and age_valid and grade_valid and email_valid and code_valid:
+    print("REGISTRATION ACCEPTED")
+    print(f"Student: {name}")
+    print(f"Age: {age_value}")
+    print(f"Grade Level: {grade}")
+    print(f"Email: {email}")
+    print(f"Registration Code: {reg_code}")
+else:
+    print("REGISTRATION NOT ACCEPTED")
 ---
 ## Validation Techniques Used
 ### Presence Validation
@@ -154,16 +244,16 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | | | |
-| 2 | Blank student name | Presence | | | |
-| 3 | Age = `fourteen` | Data type | | | |
-| 4 | Age = `11` | Minimum boundary | | | |
-| 5 | Age = `18` | Maximum boundary | | | |
-| 6 | Age = `10` | Range | | | |
-| 7 | Grade Level = `13` | Acceptable value | | | |
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | |
-| 9 | Registration Code = `ABC` | Length | | | |
-| 10 | Registration Code = `CS2026` | Valid length | | | |
+| 1 | All inputs valid | Normal case | REGISTRATION ACCEPTED + details| Registration accepted + details| PASS|
+| 2 | Blank student name | Presence |Student name is required. REGISTRATION  NOT ACCEPTED |Student name is required. REGISTRATION  NOT ACCEPTED|PASS |
+| 3 | Age = `fourteen` | Data type | Age must be a number. REGISTRATION  NOT ACCEPTED|Age must be a number. REGISTRATION  NOT ACCEPTED |PASS |
+| 4 | Age = `11` | Minimum boundary |REGISTRATION  ACCEPTED |REGISTRATION ACCEPTED |PASS |
+| 5 | Age = `18` | Maximum boundary |REGISTRATION ACCEPTED |REGISTRATION ACCEPTED | PASS|
+| 6 | Age = `10` | Range | Age must be from 11 to 18. REGISTRATION NOT ACCEPTED| Age must be from 11 to 18. REGISTRATION NOT ACCEPTED|PASS |
+| 7 | Grade Level = `13` | Acceptable value | Invalid grade level. REGISTRATION NOT ACCEPTED| Invalid grade level. REGISTRATION NOT ACCEPTED| PASS|
+| 8 | Email = `studentpshs.edu.ph` | Pattern | No @ symbol. REGISTRATION NOT ACCEPTED|No @ symbol. REGISTRATION NOT ACCEPTED | PASS|
+| 9 | Registration Code = `ABC` | Length | Registration code must be exactly 6 characters. REGISTRATION NOT ACCEPTED| Registration code must be exactly 6 characters. REGISTRATION NOT ACCEPTED |PASS |
+| 10 | Registration Code = `CS2026` | Valid length | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED| PASS|
 Write **PASS** when the actual output matches the expected output.
 Write **FAIL** when it does not.
 ---
