@@ -20,11 +20,11 @@ The program validates:
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error |Message |
 |---|---|---|---|---|---|----|
-| Student Name | | | | | |
-| Age | | | | | |
-| Grade Level | | | | | |
-| Email Address | | | | | |
-| Registration Code | | | | | |
+| Student Name | Zoe Arcilla | | | | |
+| Age | 13 | | | | |
+| Grade Level | 8 | | | | |
+| Email Address | zngarcilla@brc.pshs.edu.ph | | | | |
+| Registration Code | 263667 | | | | |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
