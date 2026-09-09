@@ -18,13 +18,13 @@ The program validates:
 ---
 # Part A - Validation Requirements
 
-| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error |Message |
+| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|----|
 | Student Name | Any non-empty text | Presence| “”| must not be empty| Student name is required.|
-| Age | 11, 12, 13, 14, 15, 16, 17, 18 | Data type + Range |”twenty”, 19 | between range 11 to 18|Integers between 11 and 18 | Age must be a number and a number between 11 to 18.
-| Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable value | 78, N | between range 7 to 12 and must be an integer | Invalid grade level | The workshop is designed exclusively for those grade levels. Limiting to exact values prevents typos and entries for grades that do not participate.|
-| Email Address | Any text with @ symbol | Singular pattern | studentyes, whatddddd| text should contain the @ symbol | Must contain the symbol @| Email must contain @ |
-| Registration Code | Exactl 6 characters | length | 239054384848, what | Must have exactly 6 characters of code | Registration code must have 6 digits |
+| Age | 11, 12, 13, 14, 15, 16, 17, 18 | Data type + Range |”twenty”, 19 |Integers between 11 and 18 | Age must be a number and a number between 11 to 18.
+| Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable value | 78, N | between range 7 to 12 and must be an integer | Invalid grade level |
+| Email Address | Any text with @ symbol | Singular pattern | studentyes, whatddddd| Must contain the symbol @| Email must contain @ |
+| Registration Code | Exactly 6 characters | length | 239054384848, what | Must have exactly 6 characters of code | Registration code must have 6 digits |
 
 ---
 ## Validation Questions
