@@ -41,10 +41,6 @@ text containing the @ symbol | Must contain the symbol @| Email must contain @ |
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
-## Flowchart
-Insert your flowchart below.
-![Workshop Validator Flowchart](workshop_validator_flowchart.png)
-OR
 ## Pseudocode
 
 START
@@ -168,7 +164,7 @@ END
 ## Programming Language
 > Python
 ## Source Code File
-[`workshop_validator.py`](workshop_validator.py)
+[`workshop_validation.py`](workshop_validation.py)
 ## Final Code
 name = input("Enter student name:")
 if name == "":
