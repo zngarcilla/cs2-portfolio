@@ -30,4 +30,6 @@ if name_valid and club_valid and email_valid and attendance_valid:
   print(f"Section:")
   print(f"Club: {club}")
   print(f"Email: {email}")
-  print(f"Attendance:"{attendance})
+  print(f"Attendance:{attendance}")
+else:
+  print("\nREGISTRATION NOT ACCEPTED")
