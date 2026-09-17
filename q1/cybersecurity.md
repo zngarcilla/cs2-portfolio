@@ -55,11 +55,11 @@ Why is it safer to collect only information that the program actually needs?
 Complete the table before writing your program. 
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
-| Student Name | any non-empty text| | | | | 
-| Section | sections specified by the teacher| | | | | 
-| Club Choice | Programming or Robotics or Science or Mathematics| | | | | 
-| School Email | any text containing @ and .| | | | | 
-| Attendance Status | Present or Late or Absent| | | | | 
+| Student Name | any non-empty text| fake names | “”| Must not be empty| “Student name is required.”| 
+| Section | sections specified by the teacher| typos or inconsistent formatting|”Wala class” | Must be in the list of sections given |”Please choose a valid section” | 
+| Club Choice | Programming or Robotics or Science or Mathematics| misspellings/typos| “prougrsmminf” | Must be one of the 4 clubs given |”Please choose a valid club” | 
+| School Email | any text containing @ and .| fake emails, typos, personal emails | “email ko”, “nakalimutan ko na”| Should contain both @ and . | “Please enter valid email”| 
+| Attendance Status | Present or Late or Absent| typos, inconsistent answers | “here”, “anditooo akooo”| Must be exactly Present, Late, or Absent|”Please enter either Present, Late, or Absent.” | 
 --- 
 ## Secure Data Capture Questions 
 ### 1. What should your program accept? 
