@@ -48,7 +48,8 @@ A proposed Club Registration System wants to collect the following information. 
 | Parent Bank Account | Do Not Collect | not needed in registration | 
 --- 
 ## Privacy Question 
-Why is it safer to collect only information that the program actually needs? > Write your answer here. 
+Why is it safer to collect only information that the program actually needs? 
+> Less data obtained means less harm can be done. It also protects a users privacy.
 --- 
 # Part C - Security-Focused Validation Rules 
 Complete the table before writing your program. 
