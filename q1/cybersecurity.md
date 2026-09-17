@@ -14,41 +14,38 @@ The goal is to create a program that collects only necessary information and acc
 --- 
 # Part A - Cybersecurity Threat Analysis 
 ## Assigned Case
-**Case Number:** 3
-**Case Title:** PSHS Secure Club Registration 
-> The case is about making a proper registration with appropriate information. 
+**Case Number:** 1
+**Case Title:** Fake Login Alert 
+> The case shows an email asking to click a link to enter their username and password to enable their account.
 --- 
 ### 1. What cybersecurity threat is shown? 
-> Write your answer here. 
+> Phishing, specifically credential phishing wherein scammers impersonate to be an official source to lure the user to type in their login information. 
 ### 2. What warning signs make the situation suspicious? 
-> Write your answer here. 
+> It states that the account will be disabled if not done and it asked to click a link where the information should be typed. 
 ### 3. What may be affected? 
 Check or describe all that apply: 
 - Data 
 - Account 
 - Application 
-- Device 
-- Network 
-- Financial information 
-> Explain your answer. 
+> Data could be affected since the information may be accessed, account has a risk to being taken over, and the login page may be impersonating.
 ### 4. What information could be exposed or misused? 
-> Write your answer here. 
+> The student’s username, password, and personal information in the account may be exposed. Scammers can use the information to log in to the real account, obtaining data and pretending to be the user.
 ### 5. What should the user do to reduce the risk? 
-> Write your answer here. 
+> To not click the link and type information. Go to an official website to check the account’s status, verify that the message actually came from an official source. If not, the student should report it.
 --- 
 # Part B - Data Privacy and Secure Data Capture 
 A proposed Club Registration System wants to collect the following information. Determine whether each item is really necessary. 
 | Data | Collect / Do Not Collect | Reason | 
 |---|---|---| 
-| Student Name | | | 
-| Section | | | 
-| Club Choice | | | 
-| School Email | | | 
-| Attendance Status | | | 
-| Password | | | 
-| OTP | | | 
-| Home Address | | |
-| Parent Bank Account | | | 
+| Student Name | Collect | to identify who is registering| 
+| Section | Collect | for class classification | 
+| Club Choice | Collect | for club membership | 
+| School Email | Collect | for communication | 
+| Attendance Status | Collect | eligibility to join | 
+| Password | Do Not Collect | creates security risks| 
+| OTP | Do Not Collect | only for login verification| 
+| Home Address | Do Not Collect | not needed in registration |
+| Parent Bank Account | Do Not Collect | not needed in registration | 
 --- 
 ## Privacy Question 
 Why is it safer to collect only information that the program actually needs? > Write your answer here. 
