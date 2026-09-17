@@ -14,9 +14,9 @@ The goal is to create a program that collects only necessary information and acc
 --- 
 # Part A - Cybersecurity Threat Analysis 
 ## Assigned Case
-**Case Number:** 
-**Case Title:** 
-> Briefly describe the case here. 
+**Case Number:** 3
+**Case Title:** PSHS Secure Club Registration 
+> The case is about making a proper registration with appropriate information. 
 --- 
 ### 1. What cybersecurity threat is shown? 
 > Write your answer here. 
