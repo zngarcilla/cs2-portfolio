@@ -23,7 +23,7 @@ The program validates:
 | Student Name | Any non-empty text | Presence| “”| must not be empty| Student name is required.|
 | Age | 11, 12, 13, 14, 15, 16, 17, 18 | Data type + Range |”twenty”, 19 |Integers between 11 and 18 | Age must be a number and a number between 11 to 18.
 | Grade Level | 7, 8, 9, 10, 11, 12 | Acceptable value | 78, N | Between range 7 to 12 and must be an integer | Invalid grade level |
-| Email Address | Any text with @ symbol | Singular pattern | studentyes, whatddddd| Must contain the symbol @| Email must contain @ |
+| Email Address | Any text with @ and . symbol | Singular pattern | studentyes, whatddddd| Must contain the symbol . and @| Email must contain @ and .|
 | Registration Code | Exactly 6 characters | length | 239054384848, what | Must have exactly 6 characters of code | Registration code must have 6 digits |
 
 ---
