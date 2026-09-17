@@ -27,7 +27,7 @@ else:
 
 email = input("Enter email:")
 email_valid = False
-if "@" in email:
+if "@" and "." in email:
     email_valid = True
 
 reg_code = input("Enter registration code:")
