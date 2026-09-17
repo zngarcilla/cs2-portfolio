@@ -6,6 +6,7 @@
 **Section:** 8 Dahlia 
 
 **Quarter:** 1 
+
 --- 
 ## Activity Overview 
 In this activity, I analyzed a cybersecurity threat and developed secure data-capture rules for a simple PSHS Club Registration System. 
