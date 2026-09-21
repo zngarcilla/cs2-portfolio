@@ -5,6 +5,15 @@ if name == "":
 else:
   name_valid = True
 
+section = input("Enter section:").title()
+valid_sections = ["Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-Ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton" "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Biochemistry"]
+if section in valid_sections: 
+  section_valid = True
+else:
+  print("Please pick a valid section")
+  section_valid =False
+
+
 club = input("Enter club name:").title()  
 if club in ["Robotics", "Science", "Mathematics", "Programming"]:
   club_valid = True
@@ -13,10 +22,12 @@ else:
   club_valid = False
 
 email = input("Enter email:")
-email_valid = False
+
 if "@" and "." in email:
     email_valid = True
-  
+else:
+  email_valid = False
+  print("Please put an appropriate email.")
 attendance = input("Attendance status:").title()  
 if attendance in ["Absent", "Late", "Present"]:
   attendance_valid = True
