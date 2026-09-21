@@ -85,7 +85,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ## Final Code 
 ```python 
 # Paste your final program here. 
-``` name = input("Enter name:")
+name = input("Enter name:")
 if name == "":
   print("Student name is required.")
   name_valid = False
@@ -131,7 +131,9 @@ if name_valid and club_valid and email_valid and attendance_valid:
   print(f"Attendance:{attendance}")
 else:
   print("\nREGISTRATION NOT ACCEPTED")
---- 
+---
+
+ 
 ## Security Practices Applied 
 ### Required Input 
 > Explain how you handled blank input. 
