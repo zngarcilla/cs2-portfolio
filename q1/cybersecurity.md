@@ -83,7 +83,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 [`secure_registration.py`](secure_registration.py) 
 --- 
 ## Final Code 
-```python 
+python 
 # Paste your final program here. 
 name = input("Enter name:")
 if name == "":
@@ -131,6 +131,8 @@ if name_valid and club_valid and email_valid and attendance_valid:
   print(f"Attendance:{attendance}")
 else:
   print("\nREGISTRATION NOT ACCEPTED")
+
+
 ---
 
  
