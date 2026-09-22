@@ -6,7 +6,7 @@ else:
   name_valid = True
 
 section = input("Enter section:").title()
-valid_sections = ["Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-Ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton" "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Biochemistry"]
+valid_sections = ["Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton", "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Bio-Chemistry"]
 if section in valid_sections: 
   section_valid = True
 else:
