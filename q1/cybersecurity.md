@@ -49,7 +49,7 @@ A proposed Club Registration System wants to collect the following information. 
 --- 
 ## Privacy Question 
 Why is it safer to collect only information that the program actually needs? 
-> Less data obtained means less harm can be done. It also protects a users privacy.
+> Less data obtained means less harm can be done. It also protects a user’s privacy.
 --- 
 # Part C - Security-Focused Validation Rules 
 Complete the table before writing your program. 
@@ -83,7 +83,7 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 [`secure_registration.py`](secure_registration.py) 
 --- 
 ## Final Code 
-‘’’python
+
 name = input("Enter name:")
 
 if name == "":
@@ -99,7 +99,7 @@ else:
 
 section = input("Enter section:").title()
 
-valid_sections = ["Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-Ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton" "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Biochemistry"]
+valid_sections = ["Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton", "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Bio-chemistry"]
 
 if section in valid_sections: 
  
@@ -168,22 +168,24 @@ if name_valid and club_valid and email_valid and attendance_valid:
 else:
 
   print("\nREGISTRATION NOT ACCEPTED")
-
+‘’’
 
 ---
 
  
 ## Security Practices Applied 
 ### Required Input 
-> Explain how you handled blank input. 
+> I checked if the user’s name is empty with if name == “”. If the user’s input is blank a message saying “Student name is required” will pop up.
 ### Allowed Values 
-> Explain which fields accept only predefined values. 
+> Sections: Only accepts Diamond, Emerald, Jade, Sapphire, Dahlia, Ilang-ilang, Rosal, Sampaguita, Beryllium, Magnesium, Platinum, Silicon, Electron, Gluon, Graviton, Photon, Biology, Chemistry, Physics, Bio-chemistry.
+> Clubs: Only accepts Programming, Robotics, Science, Mathematics.
+> Attendance status: Only accepts Absent, Late, Present.
 ### Format Check 
-> Explain your simple email validation rule. 
+> The email must contain the symbols “@“ and “.”. It is a basic format check so students will not put wrong inputs.
 ### Error Messages 
-> Explain why clear error messages are useful. 
+> It is useful so the students will know what went wrong and why their registration was not accepted. 
 ### Data Minimization 
-> Explain what information you intentionally did NOT collect and why. 
+> I did not collect passwords, OTPs, banking information, or any personal information. I only asked what is needed for the club registration, protecting others’ privacy and decreasing the chances of risk happening
 --- 
 # Part E - Testing and Reflection 
 ## Testing 
