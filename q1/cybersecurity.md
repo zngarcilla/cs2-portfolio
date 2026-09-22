@@ -191,23 +191,28 @@ else:
 ## Testing 
 | Test | Input Situation | Expected Output | Actual Output | Result | 
 |---:|---|---|---|---| 
-| 1 | All data valid | | | | 
-| 2 | Blank student name | | | | 
-| 3 | Invalid section | | | |
-| 4 | Invalid club choice | | | | 
-| 5 | Email missing `@` | | | | 
-| 6 | Email missing `.` | | | | 
-| 7 | Invalid attendance status | | | | 
-| 8 | Different valid inputs | | | | 
+| 1 | All data valid | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED |PASS| 
+| 2 | Blank student name | Student name is required. & REGISTRATION NOT ACCEPTED|Student name is required. & REGISTRATION NOT ACCEPTED |PASS | 
+| 3 | Invalid section |Please pick a valid section. & REGISTRATION NOT ACCEPTED | Please pick a valid section. & REGISTRATION NOT ACCEPTED| PASS|
+| 4 | Invalid club choice | Please choose a valid club. & REGISTRATION NOT ACCEPTED| Please choose a valid club. & REGISTRATION NOT ACCEPTED| PASS| 
+| 5 | Email missing `@` |Please put a proper email. & REGISTRATION NOT ACCEPTED | Please put a proper email. & REGISTRATION NOT ACCEPTED| | 
+| 6 | Email missing `.` |Please put a proper email. & REGISTRATION NOT ACCEPTED | Please put a proper email. & REGISTRATION NOT ACCEPTED|PASS | 
+| 7 | Invalid attendance status | Please choose a proper status. & REGISTRATION NOT ACCEPTED| Please choose a proper status. & REGISTRATION NOT ACCEPTED|PASS | 
+| 8 | Different valid inputs | REGISTRATION NOT ACCEPTED| REGISTRATION NOT ACCEPTED|PASS | 
 Use: 
 - **PASS** if the actual result matches the expected result. 
 - **FAIL** if it does not. 
 --- 
 # Reflection 
-### 1. What is one cybersecurity threat that can affect an application or user? > Write your answer here. 
-### 2. How can users reduce the risk of phishing or suspicious messages? > Write your answer here. 
-### 3. How can validation rules improve the security of user input? > Write your answer here. 
-### 4. Why should a program avoid collecting unnecessary personal information? > Write your answer here. 
-### 5. How did SG7's input validation concepts become security practices in SG8? > Write your answer here. 
+### 1. What is one cybersecurity threat that can affect an application or user? 
+> Phishing can affect a user or application. Fake information or login pages tricks users to enter their personal information .
+### 2. How can users reduce the risk of phishing or suspicious messages? 
+> Users shouldn’t click any link they see, should check if an email is from a valid organization and never share information like a password through emails.
+### 3. How can validation rules improve the security of user input? 
+> Validation rules improve the security because it filters dangerous data before the program processes it. It blocks invalid formats and wrong inputs, preventing incorrect data from entering.
+### 4. Why should a program avoid collecting unnecessary personal information? 
+> Because extra data means extra risk. The more information stored, the more there is to lose if the system gets leaked or hacked.  
+### 5. How did SG7's input validation concepts become security practices in SG8? 
+> In SG 7 I learned how to properly put validation rules and in SG 8 I learned that I can put what I’ve learned in SG 7 to create security practices.
 --- 
 
