@@ -20,3 +20,4 @@
 
 >[input_validation.md](q1/input_validation.md)
 
+>[secyre_registration.py](q1/secure_registration.py)
