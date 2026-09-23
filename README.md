@@ -20,4 +20,6 @@
 
 >[input_validation.md](q1/input_validation.md)
 
->[secyre_registration.py](q1/secure_registration.py)
+>[secure_registration.py](q1/secure_registration.py)
+
+>[cybersecuirty.md](q1/cybersecurity.md)
