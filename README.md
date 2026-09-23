@@ -10,19 +10,19 @@
 
 >[Arcilla_ZoeNaomi_Distance.py](q1/Arcilla_ZoeNaomi_Distance.py)
 
-Programming Activity 2:
+Programming Activity 2𑣲𝄞:
 >[score_checker.md](q1/score_checker.md)
 
 >[score_checker_flowchart.jpeg](q1/score_checker_flowchart.jpeg)
 
 >[score_checker.py](q1/score_checker.py)
 
-Programming Activity 3:
+Programming Activity 3˚˖𓍢ִ໋❀:
 >[workshop_validation.py](q1/workshop_validation.py)
 
 >[input_validation.md](q1/input_validation.md)
 
-Programming Activity 4:
+Programming Activity 4₊˚⊹ ᰔ:
 >[secure_registration.py](q1/secure_registration.py)
 
->[cybersecuirty.md](q1/cybersecurity.md)
+>[cybersecurity.md](q1/cybersecurity.md)
