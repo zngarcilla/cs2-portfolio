@@ -81,7 +81,7 @@ The program should collect only:
 It should **not request passwords, OTPs, banking information, or unnecessary personal information**. 
 --- 
 ## Source Code File 
-![`secure_registration.py`](secure_registration.py)
+[![`secure_registration.py`](secure_registration.py)]
 
 
 
