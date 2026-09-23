@@ -83,8 +83,6 @@ It should **not request passwords, OTPs, banking information, or unnecessary per
 ## Source Code File 
 [`secure_registration.py`](secure_registration.py)
 
-![`secure_registration.py`](secure_registration.py)
-
 
 
 ---
