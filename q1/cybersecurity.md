@@ -56,17 +56,18 @@ Complete the table before writing your program.
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
 | Student Name | any non-empty text| fake names | “”| Must not be empty| “Student name is required.”| 
-| Section | sections specified by the teacher| typos or inconsistent formatting|”Wala class” | Must be in the list of sections given |”Please choose a valid section” | 
+| Section | "Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton", "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Bio-Chemistry"| typos or inconsistent formatting|”Wala class” | Must be in the list of sections given |”Please choose a valid section” | 
 | Club Choice | Programming or Robotics or Science or Mathematics| misspellings/typos| “prougrsmminf” | Must be one of the 4 clubs given |”Please choose a valid club” | 
 | School Email | any text containing @ and .| fake emails, typos, personal emails | “email ko”, “nakalimutan ko na”| Should contain both @ and . | “Please enter valid email”| 
 | Attendance Status | Present or Late or Absent| typos, inconsistent answers | “here”, “anditooo akooo”| Must be exactly Present, Late, or Absent|”Please enter either Present, Late, or Absent.” | 
 --- 
 ## Secure Data Capture Questions 
 ### 1. What should your program accept? 
-> Write your answer here. 
+> Name: any non empty text,  Sections: "Diamond", "Emerald", "Sapphire", "Jade", "Dahlia", "Ilang-ilang", "Sampaguita", "Rosal", "Beryllium", "Platinum", "Silicon", "Magnesium", "Photon", "Graviton", "Gluon", "Electron", "Biology", "Chemistry", "Physics", "Bio-Chemistry", Club:"Robotics", "Science", "Mathematics", "Programming", School email: any text with @ and ., Attnedance: “Present”, “Late”, “Absent”
 ### 2. What should your program reject? 
-> Write your answer here. 
-### 3. How do your validation rules help reduce incorrect or unsafe input? > Write your answer here. 
+> Empty inputs in student name, invalid formatting, typos, invalid emails, and unnecessary data.
+### 3. How do your validation rules help reduce incorrect or unsafe input? 
+> It helps in checking inputs against the restrictions give, blocking the incorrect entries before they enter the system. 
 --- 
 # Part D - Secure Program Implementation 
 ## Program 
