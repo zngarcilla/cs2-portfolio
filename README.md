@@ -4,7 +4,7 @@
 
 **Grade and Section:** *8 Dahlia⋆˚꩜｡*
 
-**Links of Activities below⊹ ࣪ ˖ ໒꒱**
+# **Links of Activities below in Quarter 1⊹ ࣪ ˖ ໒꒱**
 
 >[hello.py](q1/hello.py)
 
@@ -26,3 +26,5 @@ Programming Activity 4₊˚⊹ ᰔ:
 >[secure_registration.py](q1/secure_registration.py)
 
 >[cybersecurity.md](q1/cybersecurity.md)
+
+# **Links of Activities below in Quarter 2⊹ ࣪ ˖ ໒꒱**
