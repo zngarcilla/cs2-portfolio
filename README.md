@@ -28,3 +28,6 @@ Programming Activity 4₊˚⊹ ᰔ:
 >[cybersecurity.md](q1/cybersecurity.md)
 
 # **Links of Activities below in Quarter 2⊹ ࣪ ˖ ໒꒱**
+
+Programming Activity 1𑣲𝄞:
+>[canteencalc.py](Quarter 2/canteencalc.py)
