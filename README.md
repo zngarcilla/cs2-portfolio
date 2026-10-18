@@ -30,4 +30,4 @@ Programming Activity 4₊˚⊹ ᰔ:
 # **Links of Activities below in Quarter 2⊹ ࣪ ˖ ໒꒱**
 
 Programming Activity 1𑣲𝄞:
->[canteencalc.py](Quarter2/canteencalc.py)
+>[canteencalc.py](Quarter 2/canteencalc.py)
