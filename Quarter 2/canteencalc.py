@@ -5,21 +5,21 @@ def calculate_change(payment, total):
   return payment - total
 
 price = float(input("What is the price of your order?:"))
-quantity = int(input("How many items did you get of your order?:"))
+quantity = int(input("Enter quantity:"))
 payment = float(input("How much did you pay?:"))
 
 
 total = calculate_total(price, quantity)
 change = calculate_change(payment, total)
 
-print("Total cost of order in PHP is:", total)
+print("Total cost: PHP", total)
 
 if change >= 0:
-  print ("Change in PHP", change)
+  print ("Change: PHP", change)
   
 else:
   more = change * -1
-  print(" You need to pay", more, " more in PHP")
+  print(" You need to pay PHP", more, " more")
 
 #1. What does each function do?
 #    - `calculate_total()` finds the total price by multiplying the cost per item by how many items were bought.
