@@ -31,3 +31,7 @@ Programming Activity 4₊˚⊹ ᰔ:
 
 Programming Activity 1𑣲𝄞:
 >[canteencalc.py](Quarter%202/canteencalc.py)
+
+Programming Activity 2𑣲𝄞:
+>[studentperf.py](Quarter%202/Student_perf.py)
+
