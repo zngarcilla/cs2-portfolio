@@ -26,3 +26,8 @@ eligible = is_eligible(avg, completed_tasks)
 print(f"Average: {avg:.2f}")
 print(f"Performance: {performance}")
 print(f"Eligible for Challenge: {eligible}")
+
+#1. calculate_average returns a number. get_performance returns a string. is_eligible returns True or False.
+#2. calculate_average works out the average and sends it back. The main part of the program stores that value, then passes it to get_performance.
+#3. The student is not eligible. Both conditions must be true: average 85 or higher and at least 3 tasks completed. One without the other is not enough.
+#4. return sends the actual value back so you can use it anywhere in your program. print only shows text on the screen and the value cannot be used again. return makes functions useful in more than one place.
