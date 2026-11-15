@@ -36,5 +36,5 @@ Programming Activity 2𑣲𝄞:
 >[studentperf.py](Quarter%202/Student_perf.py)
 
 Programming Activity 3𝄞:
->[py_activites.py](Quarter%202/py_activites.py)
+>[py_activities.py](Quarter%202/activities.py)
 
