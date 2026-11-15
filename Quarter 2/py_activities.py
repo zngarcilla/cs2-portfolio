@@ -22,7 +22,7 @@ print("Time is up!")
 for number in range (1,16):
   if number % 3 == 0:
     continue
-  print (i)
+  print (number)
 
 # Similar to exercise 1, it will print the numbers between 1 to 15. However, it will undergo the process wherein if the number is a multiple of 3. The number will be skipped because 'continue' tells python to skip that specific number but letting the other numbers to be printed.
 
