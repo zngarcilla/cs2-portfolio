@@ -1,0 +1,8 @@
+school_items = ["Notebook", "Pen", "Calculator", "Laptop", "Book"]
+
+print("Element at index 0:", school_items[0])     
+print("Element at index 1:", school_items[1])       
+print("Element at index 2:", school_items[2])       
+print("Element at index 3:", school_items[3])       
+print("Element at index 4:", school_items[4])       
+
