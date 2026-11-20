@@ -6,3 +6,21 @@ print("Element at index 2:", school_items[2])
 print("Element at index 3:", school_items[3])       
 print("Element at index 4:", school_items[4])       
 
+destinations = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
+
+for destination in destinations:
+  print("Destination:", destination)
+
+print("Destinations from index 1 to index 3 are:", destinations[1:4])  
+
+new_dest = input("Enter destination you're searching for:").title()
+if new_dest in destinations:
+  print("Destination found.")
+else:
+  print("Destination not found")
+
+
+destinations[2] = "Iloilo"
+
+print("New destinations are:", destinations)
+
