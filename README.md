@@ -38,3 +38,8 @@ Programming Activity 2𑣲𝄞:
 Programming Activity 3𝄞:
 >[py_activities.py](Quarter%202/activities.py)
 
+Programming Activity 4𝄞:
+>[Exercises_for_array.py](Quarter%202/Exercises_for_array.py)
+
+
+
