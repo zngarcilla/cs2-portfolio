@@ -35,10 +35,10 @@ Programming Activity 1𑣲𝄞:
 Programming Activity 2𑣲𝄞:
 >[studentperf.py](Quarter%202/Student_perf.py)
 
-Programming Activity 3𝄞:
+Programming Exercise 1𝄞:
 >[py_activities.py](Quarter%202/activities.py)
 
-Programming Activity 4𝄞:
+Programming Exercise 2𝄞:
 >[Exercises_for_array.py](Quarter%202/Exercises_for_array.py)
 
 
