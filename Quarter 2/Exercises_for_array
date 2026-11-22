@@ -12,7 +12,7 @@ print("Element at index 4:", school_items[4])
 
 #Displays the first and last item separately
 print("First item:", school_items[0])
-print("Last item:", school_items[4]")
+print("Last item:", school_items[4])
 
 #Exercise2
 
@@ -20,8 +20,9 @@ print("Last item:", school_items[4]")
 destinations = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
 
 #Using a for loop to display all of the destinations
+print("All destinations:")
 for destination in destinations:
-  print("Destination:", destination)
+  print(destination)
 
 #Slicing to display the destinations in index 1 to 3
 print("Destinations from index 1 to index 3 are:", destinations[1:4])  
