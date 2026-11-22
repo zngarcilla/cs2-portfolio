@@ -1,26 +1,43 @@
+#Exercise1
+
+#Creates a list containing the school supplies
 school_items = ["Notebook", "Pen", "Calculator", "Laptop", "Book"]
 
+#Displaying the school supplies using their index
 print("Element at index 0:", school_items[0])     
 print("Element at index 1:", school_items[1])       
 print("Element at index 2:", school_items[2])       
 print("Element at index 3:", school_items[3])       
 print("Element at index 4:", school_items[4])       
 
+#Displays the first and last item separately
+print("First item:", school_items[0])
+print("Last item:", school_items[4]")
+
+#Exercise2
+
+#Creates a list containing the destinations
 destinations = ["Cebu", "Manila", "Davao", "Baguio", "Palawan"]
 
+#Using a for loop to display all of the destinations
 for destination in destinations:
   print("Destination:", destination)
 
+#Slicing to display the destinations in index 1 to 3
 print("Destinations from index 1 to index 3 are:", destinations[1:4])  
 
+#Asking the user to enter a destination
+#.title() helps turn the given input's first letter to capital [so kahit maliit ung first letter accepted pa din]
 new_dest = input("Enter destination you're searching for:").title()
+#Checks and display if destination is on the list
 if new_dest in destinations:
   print("Destination found.")
 else:
   print("Destination not found")
 
-
+#Replaces the destination in index 2(Davao) with Iloilo
 destinations[2] = "Iloilo"
 
-print("New destinations are:", destinations)
+#Displays the updated list
+print("Updated list of destinations are:", destinations)
 
