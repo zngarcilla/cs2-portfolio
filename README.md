@@ -41,6 +41,6 @@ Programming Exercise 1𝄞:
 Programming Exercise 2𝄞:
 >[Exercises_for_array.py](Quarter%202/Exercises_for_array.py)
 
-Programming Activity 3𑣲𝄞:
+Programming Exercise 3𑣲𝄞:
 >[ArrayActivity.py](Quarter%202/Exercise_in_array.py)
 
